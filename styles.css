@@ -28,7 +28,10 @@ body {
 
 img {
     display: block;
+    width: 100%;
 }
+
+/* ---- Typo ---- */
 
 .main-title,
 .main-subtitle {
@@ -73,7 +76,8 @@ img {
     }
 }
 
-/* Layout */
+/* --------- Layout --------- */
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -84,10 +88,6 @@ img {
         width: 88%;
         max-width: 1300px;
     }
-}
-
-.img-main {
-    width: 100%;
 }
 
 .img-logo {
@@ -130,7 +130,6 @@ img {
     .main-content {
         width: 45%;
         max-width: 550px;
-
         align-self: start;
         margin-top: 4rem;
     }
@@ -194,11 +193,11 @@ img {
 }
 
 .social-link {
-    text-decoration: none;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: white;
     font-size: 1.3rem;
     width: 3rem;
     height: 3rem;
